@@ -7,7 +7,22 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center">
 
-    
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:civ_border_color="#000000"
+            app:civ_border_width="3dp"
+            android:id="@+id/profileImg"
+            android:src="@mipmap/ic_launcher_round"/>
+
+    </LinearLayout>
+
+
 
 </LinearLayout>
